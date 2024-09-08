@@ -27,7 +27,7 @@ pdf:
 
 .PHONY: html
 html:
-	@rm -rf "../output/"
+	@rm -rf "output/"
 	@$(MAKE) render OUTPUT="../output/" EXTRAFLAGS="$(HTML_FLAGS) $(HTML_FILTERS)"
 
 
