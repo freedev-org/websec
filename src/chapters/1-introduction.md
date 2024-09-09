@@ -46,12 +46,17 @@ Alguns exemplos de conhecimento prévio que é esperado do leitor:
 - Programação web usando linguagens como PHP, JavaScript ou Python;
 - Algum entendimento de como tecnologias web funcionam, como: HTML, protocolo HTTP, navegadores e
   relacionados;
+- Algum entendimento sobre banco de dados e SQL;
 - Algum entendimento — mesmo que básico — sobre como servidores HTTP funcionam, como um nginx ou
   apache;
-- Pelo menos algum conhecimento básico sobre web security e vulnerabilidades mais comuns na web.
+- Pelo menos algum conhecimento básico sobre web security e vulnerabilidades mais comuns na web;
+- etc.
 
-Sugiro àqueles que estejam iniciando do zero, que antes estudem pelo menos os tópicos mencionados
+Sugiro àqueles que estejam iniciando do zero, que antes estudem no mínimo os tópicos mencionados
 acima antes de tentar resolver os exercícios deste livro.
+
+Obs.: Exercícios mais avançados podem exigir bem mais conhecimento do que isso para serem
+resolvidos. Porém esse conhecimento acima é o bastante para pelo menos começar.
 
 
 \newpage
