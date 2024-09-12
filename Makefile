@@ -39,7 +39,7 @@ static-files:
 
 .PHONY: docker
 docker:
-	docker run --rm -it -v $(shell pwd):/app $(DOCKER_IMAGE) $(ARGS)
+	docker run --rm -v $(shell pwd):/app $(DOCKER_IMAGE) $(ARGS)
 	@exit 0
 
 
