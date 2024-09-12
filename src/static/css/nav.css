@@ -1,3 +1,16 @@
+.sitenav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navlink {
+    margin-bottom: 15px;
+}
+
+.navlink:first-child {
+    margin-right: 10px;
+}
+
 .nav-btn {
     text-decoration: none;
     cursor: pointer;
@@ -20,8 +33,4 @@
     content: "➤";
     color: green;
     font-size: 22px;
-}
-
-.navlink:first-child {
-    margin-right: 10px;
 }

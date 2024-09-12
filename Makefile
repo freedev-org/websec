@@ -1,6 +1,6 @@
-INPUT = main.md $(shell find . -ipath './src/chapters/*.md' | sort -nk5 -t'/')
+INPUT = $(shell find . -ipath './src/chapters/*.md' | sort -nk5 -t'/')
 
-FLAGS = --fail-if-warnings --toc --citeproc --highlight-style breezedark
+FLAGS = --fail-if-warnings --toc --citeproc --strip-comments --highlight-style breezedark --metadata-file=metadata.yaml
 HTML_FLAGS = -t chunkedhtml --split-level=3 --template=template.html
 
 PDF_FILTERS = $(shell find . -ipath './src/filters/pdf/*.lua' -exec echo --lua-filter {} \;)

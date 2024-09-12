@@ -42,18 +42,23 @@
         font-weight: bold;
     }
 
+    .toc li {
+        margin: 20px 0;
+    }
+
     /**
      * Gambiarra to make the toc div "toggleable".
      */
-    .toc:focus-within {
-        height: 80%;
-    }
-
     .toc a {
+        pointer-events: none;
         font-size: 24px;
     }
 
-    .toc li {
-        margin: 20px 0;
+    .toc:focus-within {
+        height: 70%;
+    }
+
+    .toc:focus-within a {
+        pointer-events: auto;
     }
 }
