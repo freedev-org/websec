@@ -23,6 +23,7 @@
     </style>
 
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/nav.css" />
     <link rel="stylesheet" href="./css/responsivity.css" />
 
     $for(css)$
@@ -84,6 +85,26 @@
             $for(include-after)$
             $include-after$
             $endfor$
+
+            <nav id="sitenav">
+                <div class="sitenav">
+                    <span class="navlink">
+                        $if(previous.url)$
+                        <a href="$previous.url$" class="nav-btn nav-btn-previous" accesskey="p" rel="previous">
+                            Página anterior: $previous.title$
+                        </a>
+                        $endif$
+                    </span>
+
+                    <span class="navlink">
+                        $if(next.url)$
+                        <a href="$next.url$" class="nav-btn nav-btn-next" accesskey="n" rel="next">
+                            Próxima página: $next.title$
+                        </a>
+                        $endif$
+                    </span>
+                </div>
+            </nav>
         </div>
     </div>
 </body>

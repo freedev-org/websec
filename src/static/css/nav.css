@@ -1,0 +1,27 @@
+.nav-btn {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #eee;
+    padding: 10px;
+    height: 0;
+}
+
+.nav-btn:hover {
+    background-color: lightgray;
+}
+
+.nav-btn-previous::before {
+    content: "⮜";
+    color: green;
+    font-size: 22px;
+}
+
+.nav-btn-next::after {
+    content: "➤";
+    color: green;
+    font-size: 22px;
+}
+
+.navlink:first-child {
+    margin-right: 10px;
+}
