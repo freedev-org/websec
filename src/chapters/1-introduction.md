@@ -84,6 +84,9 @@ em segurança de binários (*native security*).
 :::
 
 
+- Versão PDF: <https://fd1.in/websec-pdf>
+- Repositório: <https://github.com/freedev-org/websec>
+
 [^art-sec]: O artigo mencionado é esse:
     <https://blog.freedev.com.br/ciberseguran%C3%A7a-para-desenvolvedores-a37385cf5d23>
 
