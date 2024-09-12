@@ -1,0 +1,59 @@
+/**
+ * I hate CSS!
+ */
+
+.toc-input {
+    opacity: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+@media (max-width: 1024px) {
+    .toc {
+        width: 250px;
+    }
+
+    .content {
+        margin-left: 260px;
+    }
+}
+
+@media (max-width: 900px) {
+    .content {
+        margin-left: 0px;
+        margin-top: 50px;
+        min-width: 500px;
+    }
+
+    .toc {
+        height: 50px;
+        width: 100%;
+        min-width: 300px;
+        border-bottom: 5px solid darkgray;
+        cursor: pointer;
+    }
+
+    .toc::before {
+        content: 'Sumário';
+        position: fixed;
+        top: 5px;
+        right: 15px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    /**
+     * Gambiarra to make the toc div "toggleable".
+     */
+    .toc:focus-within {
+        height: 80%;
+    }
+
+    .toc a {
+        font-size: 24px;
+    }
+
+    .toc li {
+        margin: 20px 0;
+    }
+}

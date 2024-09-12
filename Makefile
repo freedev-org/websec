@@ -29,6 +29,12 @@ pdf:
 html:
 	@rm -rf "output/"
 	@$(MAKE) render OUTPUT="../output/" EXTRAFLAGS="$(HTML_FLAGS) $(HTML_FILTERS)"
+	@$(MAKE) static-files
+
+
+.PHONY: static-files
+static-files:
+	cp -r src/static/* output/
 
 
 .PHONY: docker

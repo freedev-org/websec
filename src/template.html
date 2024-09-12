@@ -21,6 +21,10 @@
     <style>
         $styles.html()$
     </style>
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/responsivity.css" />
+
     $for(css)$
     <link rel="stylesheet" href="$css$" />
     $endfor$
@@ -30,115 +34,6 @@
     $if(math)$
     $math$
     $endif$
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            max-width: 100%;
-        }
-
-        .row {
-            display: flex;
-            flex-direction: row;
-        }
-
-        .toc {
-            position: fixed;
-            top: 0;
-            left: 0;
-            z-index: 10;
-            width: 300px;
-            height: 100%;
-            background: #f4f4f4;
-            border-right: 1px solid #ddd;
-            padding: 10px;
-            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-            overflow: auto;
-        }
-
-        .content {
-            margin-left: 310px;
-            padding: 20px;
-            width: 100%;
-        }
-
-        .infobox {
-            border: 2px solid #00009d;
-            border-radius: 5px;
-            padding: 5px;
-            background-color: #d7e1ff;
-            margin: 15px;
-        }
-
-        .infobox::before {
-            content: "Info";
-            display: block;
-            font-size: 18px;
-            font-weight: bold;
-            text-decoration: underline;
-            margin-bottom: 10px;
-        }
-
-        .notebox {
-            border: 2px solid #737373;
-            border-radius: 5px;
-            padding: 5px;
-            background-color: #e8e8e8;
-            margin: 15px;
-        }
-
-        .notebox::before {
-            content: "Nota";
-            display: block;
-            font-size: 18px;
-            font-weight: bold;
-            text-decoration: underline;
-            margin-bottom: 10px;
-        }
-
-        .challengebox {
-            border: 2px solid #dfbe00;
-            border-radius: 5px;
-            padding: 5px;
-            background-color: #fffdd4;
-            margin: 15px;
-        }
-
-        .challengebox::before {
-            content: "Desafio";
-            display: block;
-            font-size: 18px;
-            font-weight: bold;
-            text-decoration: underline;
-            margin-bottom: 10px;
-        }
-
-        .abstract {
-            font-size: 16px !important;
-        }
-
-        .sourceCode {
-            padding: 5px 2px;
-        }
-
-        code.sourceCode {
-            counter-reset: lnumber 0;
-        }
-
-        code.sourceCode>span {
-            counter-increment: lnumber;
-        }
-
-        code.sourceCode>span::before {
-            content: counter(lnumber);
-            display: inline-block;
-            width: 2em;
-            color: white;
-            font-family: monospace;
-            font-size: 12px;
-        }
-    </style>
 </head>
 
 <body>
@@ -146,18 +41,21 @@
     $include-before$
     $endfor$
     <div class="row">
-        <div class="toc">
-            $if(toc-title)$
-            <h2 id="$idprefix$toc-title">$toc-title$</h2>
-            $endif$
+        <label>
+            <div class="toc">
+                $if(toc-title)$
+                <h2 id="$idprefix$toc-title">$toc-title$</h2>
+                $endif$
 
-            <ul>
-                <li>
-                    <a href="index.html">Início</a>
-                </li>
-            </ul>
-            $table-of-contents$
-        </div>
+                <input type="text" class="toc-input" />
+                <ul>
+                    <li>
+                        <a href="index.html">Início</a>
+                    </li>
+                </ul>
+                $table-of-contents$
+            </div>
+        </label>
 
         <div class="content">
             $if(toc)$
