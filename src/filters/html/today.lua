@@ -11,8 +11,8 @@ end
 
 function Meta(meta)
     if meta.date then
-        local current_date = os.date("*t")
-        meta.date = format_date(current_date)
+        -- local current_date = os.date("*t")
+        meta.date = "22 de dezembro de 2024"
     end
 
     return meta
