@@ -1,5 +1,7 @@
 INPUT = $(shell find . -ipath './src/chapters/*.md' | sort -nk5 -t'/')
 
+OUTPDF = ../exercícios-de-web-security.pdf
+
 FLAGS = --fail-if-warnings --toc --citeproc --strip-comments --highlight-style breezedark --metadata-file=metadata.yaml
 HTML_FLAGS = -t chunkedhtml --split-level=3 --template=template.html
 
@@ -22,7 +24,7 @@ render:
 
 .PHONY: pdf
 pdf:
-	@$(MAKE) render OUTPUT="../exercícios-de-web-security.pdf" EXTRAFLAGS="$(PDF_FILTERS)"
+	@$(MAKE) render OUTPUT="$(OUTPDF)" EXTRAFLAGS="$(PDF_FILTERS)"
 
 
 .PHONY: html

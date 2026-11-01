@@ -29,10 +29,7 @@ jobs:
         run: make docker ARGS=html
 
       - name: Render PDF
-        run: make docker ARGS=pdf
-      
-      - name: Move PDF to output directory
-        run: 'mv "exercícios-de-web-security.pdf" output/'
+        run: make docker ARGS=pdf OUTPDF="../output/exercícios-de-web-security.pdf"
 
       - name: Upload HTML output content
         uses: actions/upload-pages-artifact@v3
