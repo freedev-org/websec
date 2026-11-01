@@ -29,7 +29,14 @@ jobs:
         run: make docker ARGS=html
 
       - name: Render PDF
-        run: make docker ARGS=pdf OUTPDF="../output/exercícios-de-web-security.pdf"
+        run: make docker ARGS=pdf
+      
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: exercícios-de-web-security.pdf
+          path: exercícios-de-web-security.pdf
+          retention-days: 30
 
       - name: Upload HTML output content
         uses: actions/upload-pages-artifact@v3

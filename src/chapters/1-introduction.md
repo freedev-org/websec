@@ -84,7 +84,7 @@ em segurança de binários (*native security*).
 :::
 
 
-- **Versão PDF**: <https://websec.freedev.com.br/exercícios-de-web-security.pdf>
+- **Versão PDF**: <https://s.freedev.com.br/websec-pdf>
 - **Repositório**: <https://github.com/freedev-org/websec>
 - **DOI**: [10.5281/zenodo.23853943](https://doi.org/10.5281/zenodo.23853943)
 

@@ -14,7 +14,7 @@ vulnerabilidades em aplicações web. Nele você contará com dois capítulos:
 
 Você pode ler este livro em HTML ou PDF, como preferir:
 
-- Versão em PDF: <https://websec.freedev.com.br/exercícios-de-web-security.pdf>
+- Versão em PDF: <https://s.freedev.com.br/websec-pdf>
 - Versão HTML (online): <https://websec.freedev.com.br>
 
 
