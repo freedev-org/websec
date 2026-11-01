@@ -1,5 +1,7 @@
 # websec
 
+**DOI**: [10.5281/zenodo.23853943](https://doi.org/10.5281/zenodo.23853943)
+
 Esse livro é uma coleção de exercícios para a prática de análise de
 vulnerabilidades em aplicações web. Nele você contará com dois capítulos:
 
@@ -12,7 +14,7 @@ vulnerabilidades em aplicações web. Nele você contará com dois capítulos:
 
 Você pode ler este livro em HTML ou PDF, como preferir:
 
-- Versão em PDF: <https://fd1.in/websec-pdf>
+- Versão em PDF: <https://websec.freedev.com.br/exercícios-de-web-security.pdf>
 - Versão HTML (online): <https://websec.freedev.com.br>
 
 

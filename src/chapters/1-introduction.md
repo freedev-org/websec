@@ -84,8 +84,9 @@ em segurança de binários (*native security*).
 :::
 
 
-- Versão PDF: <https://fd1.in/websec-pdf>
-- Repositório: <https://github.com/freedev-org/websec>
+- **Versão PDF**: <https://websec.freedev.com.br/exercícios-de-web-security.pdf>
+- **Repositório**: <https://github.com/freedev-org/websec>
+- **DOI**: [10.5281/zenodo.23853943](https://doi.org/10.5281/zenodo.23853943)
 
 [^art-sec]: O artigo mencionado é esse:
     <https://blog.freedev.com.br/ciberseguran%C3%A7a-para-desenvolvedores-a37385cf5d23>
@@ -122,10 +123,12 @@ resolvidos. Porém esse conhecimento acima é o bastante para pelo menos começa
 
 Luiz Felipe Silva (Silva97)
 
+- ORCID: [0009-0001-2330-5531](https://orcid.org/0009-0001-2330-5531)
 - GitHub: <https://github.com/Silva97>
 - LinkedIn: <https://www.linkedin.com/in/silva97/>
-- Twitter (X): <https://x.com/Vilas_79>
-- E-mail: `silva97@freedev.com.br`
+- Twitter (X): <https://x.com/silva0x61>
+
+**DOI**: [10.5281/zenodo.23853943](https://doi.org/10.5281/zenodo.23853943)
 
 ## Doações
 
@@ -135,15 +138,6 @@ gratuito e de qualidade, você pode fazer uma doação da maneira que achar melh
 **Pix**: `0a442eab-f8c6-410f-90ff-8dec390ae5f4`
 
 ![](figures/qrcode-pix.jpeg){width=100px}\
-
-**Bitcoin**: `15FMHdBzzW2HoYETiCZQSbTmfYku3fCqS4`
-
-![](figures/qrcode-bitcoin.png){width=100px}\
-
-**Ethereum**: `0xceC713dfB30d7d88bB81d8A650d136c6a21d71A1`
-
-![](figures/qrcode-ethereum.png){width=100px}\
-
 
 \newpage
 ## Licença

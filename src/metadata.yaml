@@ -1,6 +1,6 @@
 title: Exercícios de Web Security
 lang: pt-BR
-date: \today
+date: 2024-12-22
 keywords:
   - appsec
   - offensive-security
@@ -8,7 +8,7 @@ keywords:
   - security
   - web-security
 author:
-  - Luiz Felipe Silva ([Silva97](https://github.com/Silva97))
+  - "Luiz Felipe Silva (ORCID: [0009-0001-2330-5531](https://orcid.org/0009-0001-2330-5531))"
 abstract: |
   Esse livro é uma coleção de exercícios para a prática de análise de vulnerabilidades em
   aplicações web. Nele você contará com dois capítulos: O primeiro com uma série de
